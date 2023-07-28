@@ -4,6 +4,13 @@ theme: border_xrpl
 footer: '&copy; 2023 Catalyze Research'
 paginate: true
 Author: Wonjae Choi
+
+style: |
+    .presenter {
+      position: absolute;
+      bottom: 80px;
+      right: 80px;
+    }
 ---
 
 <style scoped>
@@ -13,6 +20,10 @@ h1 {
 </style>
 
 # 2부 - XRPL 개발자 세션
+
+<div class="presenter">
+  발표자: 최원재
+</div>
 
 ---
 
@@ -464,10 +475,27 @@ https://bit.ly/xrpl-dev-session
 
 ---
 
+<style scoped>
+li {
+  font-size: 0.79em;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-item {
+  width: 50%;
+}
+</style>
+
+<div class="flex-container">
+<div class="flex-item">
+
 ## Further Information
 
 -   [XRPL Developer Portal](https://xrpl.org)
 -   [XRPL Foundation](https://foundation.xrpl.org/)
+-   [Ripple](https://ripple.com/)
 -   [SHAMap](https://github.com/XRPLF/rippled/blob/develop/src/ripple/shamap/README.md)
 -   [RPCA Whitepaper](https://ripple.com/files/ripple_consensus_whitepaper.pdf)
 -   [Sologenic](https://www.sologenic.com/)
@@ -475,3 +503,19 @@ https://bit.ly/xrpl-dev-session
 -   [XLS-30d AMM (more technical)](https://github.com/XRPLF/XRPL-Standards/discussions/78)
 -   [Hooks](https://xrpl-hooks.readme.io/)
 -   [EVM Sidechain](https://opensource.ripple.com/docs/evm-sidechain/intro-to-evm-sidechain/)
+-   [XRPL Grants](https://xrplgrants.org/)
+
+</div>
+<div class="flex-item">
+
+## Presenter Contact Info
+
+![profile center h:300](img/profile.png)
+
+-   Telegram: @wonj1012
+-   Github: https://github.com/wonj1012
+-   LinkedIn: https://www.linkedin.com/in/wonj
+-   Email: wonjae@catalyze-research.com
+
+</div>
+</div>
